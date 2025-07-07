@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 1000px;
+    height: 90pxs;
+    background-color: blueviolet;
+    position: relative;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+   margin-left: 13%;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    list-style: none;
+}
+.navbar p{
+    margin-right: 3%;
+    margin-top: 0.5%;
+}
+.cardet{
+    
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: center;
+}
+.cart{
+    float: right;
+    margin-right: 9%;
+    color: black;
+    font-weight: bold;
+    margin-top: 9%;
+}
+.but{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 18px;
+}
+.container{
+    display: inline-flex;
+    width: 1000px;
+    height: 70px;
+    background-color: blueviolet;
+    gap: 2em;
+    margin-left: 13%;
+}
+.img p{
+    align-items: center;
+    color: black;
+}
+.image h1{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    margin-top: 2%;
+}
+.imgcont{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 2fr));
+    gap: 10px;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.image1{
+   background-image: url(../monprojet/assets/image1.webp);
+   width: 300px;
+   height: 180px;
+}
+.image2{
+   background-image: url(../monprojet/assets/image2.jpg);
+   width: 300px;
+   height: 180px;
+   background-repeat: no-repeat;
+
+}
+.image3{
+   background-image: url(../monprojet/assets/image3.webp);
+   width: 300px;
+   height: 180px;
+
+}
+.image4{
+   background-image: url(../monprojet/assets/image4.webp);
+   width: 300px;
+   height: 180px;
+
+}
+.image5{
+   background-image: url(../monprojet/assets/image3.webp);
+   width: 300px;
+   height: 180px;
+}
+.image6{
+   background-image: url(../monprojet/assets/image7.webp);
+   width: 350px;
+   height: 180px;
+   background-repeat: no-repeat;
+
+}
+.image7{
+   background-image: url(../monprojet/assets/image8.webp);
+   width: 300px;
+   height: 180px;
+
+}
+.image8{
+   background-image: url(../monprojet/assets/image7.webp);
+   width: 300px;
+   height: 180px;
+
+}
+.image1 h3{
+    font-size: 12px;
+    margin: 14px 0 8px;
+    color: blueviolet;
+}
+.image1 p{
+    color: black;
+    font-weight: bold;
+}
+
+

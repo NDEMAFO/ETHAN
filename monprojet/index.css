@@ -3,14 +3,14 @@
     padding: 0;
 }
 header{
-    width: 1000px;
+   
     height: 90pxs;
     background-color: blueviolet;
     position: relative;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-   margin-left: 13%;
+  
 }
 .navbar{
   display: flex;
@@ -30,11 +30,10 @@ header{
     margin-top: 0.5%;
 }
 .cardet{
-    
+     background: url(../monprojet/assets/image1.webp);
     height: 400px;
     background-repeat: no-repeat;
-    background-size: 1000px;
-    background-position: center;
+   background-size: 1350px;
 }
 .cart{
     float: right;
@@ -49,12 +48,13 @@ header{
     border-radius: 18px;
 }
 .container{
+   
     display: inline-flex;
-    width: 1000px;
+    width: 1350px;
     height: 70px;
     background-color: blueviolet;
     gap: 2em;
-    margin-left: 13%;
+   
 }
 .img p{
     align-items: center;
@@ -67,11 +67,14 @@ header{
     margin-top: 2%;
 }
 .imgcont{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px, 2fr));
-    gap: 10px;
-    margin-left: 3%;
-    margin-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  justify-content: center;
+  row-gap: 18px;
+  column-gap: 12px;
 }
 .image1{
    background-image: url(../monprojet/assets/image1.webp);
@@ -79,14 +82,14 @@ header{
    height: 180px;
 }
 .image2{
-   background-image: url(../monprojet/assets/image2.jpg);
+   background-image: url(../monprojet/assets/image1.webp);
    width: 300px;
    height: 180px;
    background-repeat: no-repeat;
 
 }
 .image3{
-   background-image: url(../monprojet/assets/image3.webp);
+   background-image: url(../monprojet/assets/image5.webp);
    width: 300px;
    height: 180px;
 
@@ -103,9 +106,9 @@ header{
    height: 180px;
 }
 .image6{
-   background-image: url(../monprojet/assets/image7.webp);
-   width: 350px;
-   height: 180px;
+   background-image: url(../monprojet/assets/image6.jpg);
+   width: 105%;
+   height: 4%px;
    background-repeat: no-repeat;
 
 }
@@ -119,16 +122,27 @@ header{
    background-image: url(../monprojet/assets/image7.webp);
    width: 300px;
    height: 180px;
+   background-repeat: no-repeat;
 
 }
 .image1 h3{
-    font-size: 12px;
-    margin: 14px 0 8px;
-    color: blueviolet;
+    font-size: 19px;
+   color: black;
+    font-weight: bold;
 }
 .image1 p{
+   
+     margin-top: 48%;
     color: black;
-    font-weight: bold;
+    float: right;
+    margin-right: 2%;
+}
+.button{
+    background-color: blueviolet;
+    border-radius: 8px;
+   float: right;
+     margin-top: 53%;
+      margin-right: 2%;
 }
 
 

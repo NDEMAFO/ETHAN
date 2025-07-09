@@ -16,9 +16,10 @@ header {
 
 }
 .cercle{
-    width: 85px;
+    margin-top: 0.9%;
+    width: 75px;
     margin-left: 1%;
-    height: 70px;
+    height: 50px;
     border-radius: 50%;
     overflow: hidden;
     border: 4px solid white;
@@ -47,9 +48,10 @@ header {
     list-style: none;
 }
 
-.navbar i {
+.navbar a  {
     margin-right: 7%;
     margin-top: 2%;
+    color: white;text-decoration: none;
 }
 
 .cardet {
@@ -83,7 +85,7 @@ header {
 
     display: inline-flex;
     width: 1350px;
-    height: 85px;
+    height: 97px;
     background-color: #1b263b;
     gap: 9%;
     justify-content: center;
@@ -105,25 +107,61 @@ header {
 
 .icon-truck {
     align-items: center;
-    margin-left: 34%;
-    color: yellow;
+    margin-left: 39%;
+    color: rebeccapurple;
+    font-size: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px;
+    padding: 9px;
+   
+    display: inline-block;
+   
+   
+    background-color: white;
 }
 
 .icon-user {
-    margin-left: 34%;
+    margin-left: 39%;
     color: black;
-    background-color: none;
-
+    font-size: 20px;
+    border-radius: 60%;
+    overflow: hidden;
+    border: 2px;
+    padding: 9px;
+   
+    display: inline-block;
+   
+   
+    background-color: white;
 }
 
 .icon-facebook {
-    margin-left: 34%;
+    margin-top: 0.5%;
+    margin-left: 39%;
     color: blue;
+    font-size: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px;
+    padding: 9px;
+    display: inline-block;
+    background-color: white;
 }
 
 .icon-phone-square {
-    margin-left: 38%;
+    margin-left: 43%;
     color: green;
+     font-size: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px;
+    padding: 9px;
+   
+    display: inline-block;
+   
+   
+    background-color: white;
 }
 
 .button{
@@ -221,22 +259,62 @@ footer {
 }
 
 .span .icon-linkedin {
-
-    margin-left: 20px;
-    color: mediumslateblue;
+    margin-top: 0.4%;
+    margin-left: 16px;
+    color: blue;
+    font-size: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px;
+    padding: 9px;
+   
+    display: inline-block;
+   
+   
+    background-color: white;
 }
 
 .span .icon-phone {
     margin-left: 20px;
     color: green;
+     font-size: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px;
+    padding: 9px;
+   
+    display: inline-block;
+   
+   
+    background-color: white;
 }
 
 .span .icon-heart-o {
     margin-left: 20px;
     color: red;
+      font-size: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px;
+    padding: 9px;
+   
+    display: inline-block;
+   
+   
+    background-color: white;
 }
 
 .span .icon-bell {
     margin-left:10%;
     color: blue;
+     font-size: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px;
+    padding: 9px;
+   
+    display: inline-block;
+   
+   
+    background-color: white;
 }

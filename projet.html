@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gestion des projets</title>
+    <link rel="stylesheet" href="../HTML/projet.css">
+    <link rel="stylesheet" href="../icomoon/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="h2">
+            <p><span class="span"> SMART TASKS</span> managment </p>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="">acceuil</a></li>
+                <li><a href="">a propos</a></li>
+                <li><a href="">mes taches</a></li>
+                <li><a href="">connexion</a></li>
+                <li><button id="btntranslate">traduire</button></li>
+            </ul>
+           
+        </div>
+    </header>
+    <div id="google_translate_element" style="display: none;"></div>
+
+    <section class="container">
+        <div class="image">
+            <img src="../HTML/7c874d2c-644d-4cb8-be8c-62e15d7c557f~1.jpg" alt="">
+        </div>
+        <div class="cont">
+            <h2>BIENVENUE SUR NOTRE PLATEFORME</h2>
+            <P>Gerer vos taches facilement et efficacement
+                grace a notre outil moderne et intuitif.Commencez dés maintementa
+                ameliorer votre productivite
+            </P>
+        </div>
+        
+    </section>
+    <section>
+        <div class="question">QUI ETES-VOUS?</div>
+        <div class="choix">
+            <div class="choice" onclick="choisir('particulier')">
+                <button class="icon-user"></button>
+                <p>Un particulier</p>
+            </div>
+            <div class="choice"  onclick="choisir('groupe')">
+               <button class="icon-user-plus"></button>
+                <p>Un goupe / una association</p>
+            </div>
+            <div class="choice"  onclick="choisir('entreprise')">
+                <button class="icon-user-plus"></button>
+                <p>Une entreprise / Firme</p>
+            </div>
+        </div>
+        <div class="message" id="message"> </div>
+
+    </section>
+
+
+  <footer>
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>Smart Tasks Management</h3>
+      <p>Une solution intelligente pour organiser,<br> suivre et accomplir vos tâches plus efficacement.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Liens rapides</h4>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Mes tâches</a></li>
+        <li><a href="#">Connexion</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p>Email : contact@smarttasks.com</p>
+      <p>Téléphone : +237 699 999 </p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Smart Tasks Management | Tous droits réservés</p>
+  </div>
+</footer>
+    <script src="projet.js"></script>
+</body>
+
+</html>
